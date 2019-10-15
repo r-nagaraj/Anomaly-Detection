@@ -12,7 +12,7 @@
 
 **Global** - *Global anomalies are the most common type of anomalies and correspond to those data points which deviate largely from the rest of the data points. The figure used in the “Find the odd ones out: Anomalies in data” section actually depicts global anomalies.*
 
-![](/image/GlobalAnomalies.png)
+![](image/GlobalAnomalies.png)
 
 *A key challenge in detecting global anomalies is to figure out the exact amount of deviation which leads to a potential anomaly. In fact, this is an active field of research. Follow this excellent paper by Macha et al. for more on this. Global anomalies are quite often used in the transnational auditing systems to detect fraud transactions. In this case, specifically, global anomalies are those transactions which violate the general regulations.*
 
@@ -22,19 +22,19 @@
 
 Now, in India, specifically in Bangalore, if it is Summer, the temperature mentioned above is fine. But if it is Winter, we need to investigate further.  Let’s take another example. We all are aware of the tremendous climate change i.e. causing the Global Warming. The latest results are with us also*
 
-**Collective** - *Take note of the phrase “unusually warm”. It refers to 59-degrees Fahrenheit. But this may not be unusually warm for other countries. This unusual warmth is an anomaly here.
+*Take note of the phrase “unusually warm”. It refers to 59-degrees Fahrenheit. But this may not be unusually warm for other countries. This unusual warmth is an anomaly here.
 
-These are called contextual anomalies where the deviation that leads to the anomaly depends on contextual information. These contexts are governed by contextual attributes and behavioral attributes. In this example, location is a contextual attribute and temperature is a behavioral attribute.*
+*These are called contextual anomalies where the deviation that leads to the anomaly depends on contextual information. These contexts are governed by contextual attributes and behavioral attributes. In this example, location is a contextual attribute and temperature is a behavioral attribute*
 
-
+![](Contextualanomalies.png)
 
 *The above figure depicts a time-series data over a particular period of time. The plot was further smoothed by kernel density estimation to present the boundary of the trend. The values have not fallen outside the normal global bounds, but there are indeed abnormal points (highlighted in orange) when compared to the seasonality.*
 
-*While dealing with contextual anomalies, one major aspect is to examine the anomalies in various contexts. Contexts are almost always very domain specific. This is why in most of the applications that deal with contextual anomalies, domain experts are consulted to formalize these contexts*
+*While dealing with contextual anomalies, one major aspect is to examine the anomalies in various contexts. Contexts are almost always very domain specific. This is why in most of the applications that deal with contextual anomalies, domain experts are consulted to formalize these contexts.*
 
 **Collective** - *In the following figure, the data points marked in green have collectively formed a region which substantially deviates from the rest of the data points.*
 
-
+![](Collectiveanomalies.png)
 
 This an example of a collective anomaly. The main idea behind collective anomalies is that the data points included in forming the collection may not be anomalies when considered individually. Let’s take the example of a daily supply chain in a textile firm. Delayed shipments are very common in industries like this. But on a given day, if there are numerous shipment delays on orders then it might need further investigation. The delayed shipments do not contribute to this individually but a collective summary is taken into account when analyzing situations like this.
 
