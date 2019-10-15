@@ -12,9 +12,7 @@
 
 **Global** - *Global anomalies are the most common type of anomalies and correspond to those data points which deviate largely from the rest of the data points. The figure used in the “Find the odd ones out: Anomalies in data” section actually depicts global anomalies.*
 
-![GitHub Logo](/Unsupervised/Images/Global Anomalies.png)
-Format: ![Alt Text](url)
-
+![](Images/Global Anomalies.png)
 
 *A key challenge in detecting global anomalies is to figure out the exact amount of deviation which leads to a potential anomaly. In fact, this is an active field of research. Follow this excellent paper by Macha et al. for more on this. Global anomalies are quite often used in the transnational auditing systems to detect fraud transactions. In this case, specifically, global anomalies are those transactions which violate the general regulations.*
 
